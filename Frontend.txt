@@ -510,15 +510,13 @@ git add -A
 ................................
 git commit -m 'first commit'
 
-- RUN COMMAND TO CONNECT REPOSITORY TO THE APPLICATION FOLDER 
+- RUN THREE PROVIDED & COPIED COMMANDS 
 ................................
-git remote add origin https://github.com/Ryevh/custom-app-name.git
+git remote add origin https://github.com/Ryevh/codebook.git
+git branch -M main
+git push -u origin main
 
 # NOTE: in result WE PASTED COPIED ONE OF THE COMMAND now with this, your local repository knows about this remote repository, which again we called here "origin."
-
-- RUN COMMAND TO PUSH APPLICATION COMMITTED FILES INTO REPOSITORY 
-................................
-git push -u origin main
 
 # NOTE: in result we should see uploaded & stored the application files into repository of your GitHub account 
 
@@ -530,7 +528,7 @@ git add -A
 
 - RUN COMMAND TO COMMIT & PROVIDE CUSTOM STRING VALUE OF WHAT IS UPDATED/CHANGED 
 ................................
-git remote add origin https://github.com/Ryevh/custom-app-name.git
+git remote add origin https://github.com/Ryevh/codebook.git
 git branch -M main
 git push -u origin main
 
